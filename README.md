@@ -1,4 +1,4 @@
-# 🚨圓圈點擊多模式挑戰賽 Redis 遊戲排行榜系統 (osu! Redis Leaderboard)
+# 🚨圓圈點擊多模式挑戰賽 Redis 遊戲排行榜系統 (Circle Click Redis Leaderboard)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
