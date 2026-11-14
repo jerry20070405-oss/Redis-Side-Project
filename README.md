@@ -56,6 +56,7 @@ graph TD
     Player --> UC4
     Player --> UC5
     Player --> UC6
+```
 ### 2. 部署圖 (Deployment Diagram)
 ```mermaid
 graph LR
@@ -75,3 +76,4 @@ graph LR
 
     Browser -->|HTTP / Query Parameters| Streamlit
     Streamlit -->|"TCP Socket (redis-py)"| Redis
+```
