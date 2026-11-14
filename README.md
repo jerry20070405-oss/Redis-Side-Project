@@ -56,3 +56,22 @@ graph TD
     Player --> UC4
     Player --> UC5
     Player --> UC6
+### 2. 部署圖 (Deployment Diagram)
+```mermaid
+graph LR
+    subgraph ClientDevice ["客戶端裝置 (Client)"]
+        Browser["網頁瀏覽器<br>- HTML5 Canvas 遊戲引擎<br>- Streamlit 前端 UI"]
+    end
+
+    subgraph ServerEnvironment ["雲端 / 本地伺服器環境"]
+        subgraph PythonApp ["應用程式伺服器"]
+            Streamlit["Streamlit Python 核心服務<br>- app.py 路由與邏輯控制<br>- redis-py 連線驅動"]
+        end
+
+        subgraph DatabaseServer ["資料庫伺服器"]
+            Redis["Redis 記憶體資料庫 (Port 6379)<br>- ZSET (多模式排行榜)<br>- Hashes (會員與個資)<br>- Pub/Sub & Lists (動態牆)"]
+        end
+    end
+
+    Browser -->|HTTP / Query Parameters| Streamlit
+    Streamlit -->|"TCP Socket (redis-py)"| Redis
