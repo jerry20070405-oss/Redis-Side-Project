@@ -4,7 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
 [![Redis](https://img.shields.io/badge/Redis-In--Memory-green.svg)](https://redis.io/)
 
-基於 **Python (Streamlit)** 與 **Redis 記憶體資料庫** 開發的高效能多模式線上遊戲排行榜系統。本專案將網頁節奏遊戲（osu! 風格 2D 圓圈極速點擊挑戰）與 NoSQL 資料庫的高階特性完美結合，提供極佳的即時互動體驗與後端效能。
+基於 **Python (Streamlit)** 與 **Redis 記憶體資料庫** 開發的高效能多模式線上遊戲排行榜系統。本專案將網頁遊戲（圓圈點擊挑戰）與 NoSQL 資料庫的高階特性完美結合，提供極佳的即時互動體驗與後端效能。
 
 ---
 
