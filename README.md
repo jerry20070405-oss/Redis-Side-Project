@@ -41,7 +41,7 @@
 graph TD
     Player["玩家 / 會員"]
     
-    subgraph 系統功能範圍 [osu! Redis Leaderboard System]
+    subgraph 系統功能範圍 [Circle Click Redis Leaderboard System]
         UC1[會員註冊與登入]
         UC2["選擇遊戲模式<br>(經典/競速/生存)"]
         UC3["進行 HTML5 Canvas<br>互動遊戲挑戰"]
